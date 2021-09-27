@@ -31,17 +31,24 @@ pre{
     text-align: center;
     background-color: var(--primary-green);
     margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 .section-yellow{
     text-align: center;
     background-color: var(--primary-skin);
+    
 }
 
 #txt-input{
+    margin-top:1rem;
     width: 400px;
 	height: 120px;
     padding: 2rem;
+}
+
+#btn{
+    background-color: var(--primary-skin);
 }
 
 #btn-translate{
@@ -49,7 +56,7 @@ pre{
     display: block;
     margin: auto;
     border-radius: 1rem;
-    background-color: crimson;
+    background-color: #064E3B;
     padding: 10px;
     color: white;
 }
@@ -64,6 +71,12 @@ h3{
     padding: 1rem;
     text-align: center;
     color:white;
+    margin-top: 0%;
+}
+
+.section-blue{
+    text-align: center;
+    background-color: var(--primary-purple);  
 }
 
 #txt-output{
@@ -72,13 +85,13 @@ h3{
     border: 1px solid; 
     display: block;
     margin:auto;
+    background-color: white;
 }
 
 .footer{
     background-color: var(--primary-purple);
     padding: 1rem 0rem;
     text-align: center;
-    margin-top: 1rem;
     color: white;
     border-radius: 0rem 0rem 5rem 5rem;
 }
@@ -91,6 +104,7 @@ h3{
 
 .footer .links{
     color: white;
+    text-decoration: none;
 }
 
 .footer ul{
